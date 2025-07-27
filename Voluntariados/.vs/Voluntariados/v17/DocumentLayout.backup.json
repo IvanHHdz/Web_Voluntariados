@@ -7,16 +7,24 @@
       "RelativeMoniker": "D:0:0:{8F5327F6-07D4-4977-AA63-E951528001C3}|Voluntariados.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F5327F6-07D4-4977-AA63-E951528001C3}|Voluntariados.csproj|c:\\users\\herni\\source\\web_voluntariados\\voluntariados\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F5327F6-07D4-4977-AA63-E951528001C3}|Voluntariados.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8F5327F6-07D4-4977-AA63-E951528001C3}|Voluntariados.csproj|c:\\users\\herni\\source\\web_voluntariados\\voluntariados\\views\\home\\reglamento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F5327F6-07D4-4977-AA63-E951528001C3}|Voluntariados.csproj|solutionrelative:views\\home\\reglamento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F5327F6-07D4-4977-AA63-E951528001C3}|Voluntariados.csproj|c:\\users\\herni\\source\\web_voluntariados\\voluntariados\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F5327F6-07D4-4977-AA63-E951528001C3}|Voluntariados.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F5327F6-07D4-4977-AA63-E951528001C3}|Voluntariados.csproj|c:\\users\\herni\\source\\web_voluntariados\\voluntariados\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F5327F6-07D4-4977-AA63-E951528001C3}|Voluntariados.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8F5327F6-07D4-4977-AA63-E951528001C3}|Voluntariados.csproj|c:\\users\\herni\\source\\web_voluntariados\\voluntariados\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F5327F6-07D4-4977-AA63-E951528001C3}|Voluntariados.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F5327F6-07D4-4977-AA63-E951528001C3}|Voluntariados.csproj|c:\\users\\herni\\source\\web_voluntariados\\voluntariados\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8F5327F6-07D4-4977-AA63-E951528001C3}|Voluntariados.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F5327F6-07D4-4977-AA63-E951528001C3}|Voluntariados.csproj|c:\\users\\herni\\source\\web_voluntariados\\voluntariados\\wwwroot\\js\\voluntariados.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8F5327F6-07D4-4977-AA63-E951528001C3}|Voluntariados.csproj|solutionrelative:wwwroot\\js\\voluntariados.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,19 +34,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\herni\\source\\Web_Voluntariados\\Voluntariados\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\herni\\source\\Web_Voluntariados\\Voluntariados\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABWAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Reglamento.cshtml",
+              "DocumentMoniker": "C:\\Users\\herni\\source\\Web_Voluntariados\\Voluntariados\\Views\\Home\\Reglamento.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Reglamento.cshtml",
+              "ToolTip": "C:\\Users\\herni\\source\\Web_Voluntariados\\Voluntariados\\Views\\Home\\Reglamento.cshtml",
+              "RelativeToolTip": "Views\\Home\\Reglamento.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-25T18:06:04.665Z",
+              "WhenOpened": "2025-07-27T03:20:39.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\herni\\source\\Web_Voluntariados\\Voluntariados\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\herni\\source\\Web_Voluntariados\\Voluntariados\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAGIAAAA2MzMzMzMwwI8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-27T02:04:08.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "voluntariados.js",
+              "DocumentMoniker": "C:\\Users\\herni\\source\\Web_Voluntariados\\Voluntariados\\wwwroot\\js\\voluntariados.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\voluntariados.js",
+              "ToolTip": "C:\\Users\\herni\\source\\Web_Voluntariados\\Voluntariados\\wwwroot\\js\\voluntariados.js",
+              "RelativeToolTip": "wwwroot\\js\\voluntariados.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-27T01:16:27.016Z",
               "EditorCaption": ""
             },
             {
@@ -49,7 +83,7 @@
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\herni\\source\\Web_Voluntariados\\Voluntariados\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAMjMzMzMLwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T17:58:53.481Z",
               "EditorCaption": ""
@@ -62,20 +96,20 @@
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\herni\\source\\Web_Voluntariados\\Voluntariados\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAIAAAAAMTMzMzMLwCUAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAABgMzMzM7MiwEUAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-25T17:53:59.242Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\herni\\source\\Web_Voluntariados\\Voluntariados\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\herni\\source\\Web_Voluntariados\\Voluntariados\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-25T17:53:04.915Z",
               "EditorCaption": ""

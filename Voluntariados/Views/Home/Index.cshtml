@@ -1,11 +1,274 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Inicio | Voluntariados UNAH";
 }
 
-<div class="container-fluid text-center py-5 bg-info px-0 text-light">
-    <h1 class="fw-bold">Voluntariados UNAH</h1>
-    <br />
-    <h3>Juntos Transformando Comunidades</h3>
-    <p>Una red universitaria comprometida con el desarrollo social y ambiental a través de la acción voluntaria organizada</p>
-</div>
+<!-- Hero Section -->
+<section class="hero-section bg-primary-gradient py-7">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 text-center text-lg-start mb-5 mb-lg-0">
+                <h1 class="display-4 fw-bold text-white mb-3">Voluntariados UNAH</h1>
+                <h2 class="text-light mb-4">Juntos Transformando Comunidades</h2>
+                <p class="lead text-light mb-4">Una red universitaria comprometida con el desarrollo social y ambiental a través de la acción voluntaria organizada</p>
+                <div class="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3">
+                    <a href="#" class="btn btn-light btn-lg px-4 py-3 fw-bold shadow-sm">
+                        <i class="bi-person-plus me-2"></i>Únete como Voluntario
+                    </a>
+                    <a href="#" class="btn btn-outline-light btn-lg px-4 py-3 fw-bold shadow-sm">
+                        <i class="bi-eye me-2"></i>Conocer los voluntariados
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="position-relative">
+                    <img src="https://res.cloudinary.com/dcm2dsjov/image/upload/v1741583384/b7cffaf1-0995-42fb-b8e8-c306a6fee7d2_nfsdyo.jpg"
+                         class="img-fluid rounded-4 shadow-lg"
+                         alt="Voluntarios trabajando juntos">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 rounded-4" style="background: rgba(0, 82, 147, 0.3);"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+<!--
+    Stats Section
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row g-4 text-center">
+            <div class="col-md-3">
+                <div class="p-4 bg-white rounded-3 shadow-sm">
+                    <h2 class="text-primary fw-bold">1,250+</h2>
+                    <p class="mb-0">Voluntarios Activos</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-4 bg-white rounded-3 shadow-sm">
+                    <h2 class="text-primary fw-bold">85</h2>
+                    <p class="mb-0">Proyectos Realizados</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-4 bg-white rounded-3 shadow-sm">
+                    <h2 class="text-primary fw-bold">32</h2>
+                    <p class="mb-0">Comunidades Beneficiadas</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-4 bg-white rounded-3 shadow-sm">
+                    <h2 class="text-primary fw-bold">15,000+</h2>
+                    <p class="mb-0">Horas de Voluntariado</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+
+<br />
+
+<!-- Past Events Section -->
+<section class="py-7">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold mb-3"><i class="fa-solid fa-blog"></i> Blog - Voluntariado</h2>
+            <p class="text-muted lead mx-auto" style="max-width: 700px;">Algunos de los eventos importantes más recientes</p>
+        </div>
+
+        <div class="row g-4">
+            <!-- Evento 1 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card border-0 shadow-sm h-100 overflow-hidden">
+                    <div class="position-relative">
+                        <img src="https://res.cloudinary.com/dcm2dsjov/image/upload/v1741583384/b7cffaf1-0995-42fb-b8e8-c306a6fee7d2_nfsdyo.jpg"
+                             class="card-img-top"
+                             alt="Campaña de limpieza"
+                             style="height: 200px; object-fit: cover;">
+                        <div class="position-absolute bottom-0 start-0 w-100 p-3 bg-dark bg-opacity-75 text-white">
+                            <h5 class="mb-0 fw-bold">Inauguración del Nuevo Espacio de Voluntariado</h5>
+                            <small class="d-block">13 de Marzo, 2025</small>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span class="badge bg-primary">Eventos</span>
+                            <!-- <span class="text-muted">120 participantes</span> -->
+                        </div>
+                        <p class="card-text">Únete a nosotros en este hito histórico para nuestra organización universitaria.</p>
+                        <div class="d-flex align-items-center mt-3">
+                            <i class="bi-geo-alt me-1 text-primary"></i>
+                            <small>Sede del Voluntariado, UNAH - Cortés</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--mas eventos-->
+
+        <div class="text-center mt-5">
+            <a href="#" class="btn btn-outline-primary px-4 py-2">
+                <i class="bi-clock-history me-2"></i>Ver Más 
+            </a>
+        </div>
+    </div>
+</section>
+
+<br />
+
+<!-- How It Works -->
+<section class="py-7">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold mb-3">¿Cómo Participar?</h2>
+            <p class="text-muted lead mx-auto" style="max-width: 700px;">Sigue estos sencillos pasos para unirte a nuestra red de voluntarios y comenzar a hacer la diferencia</p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body p-4 text-center">
+                        <div class="icon-circle bg-primary text-white mb-4 mx-auto">
+                            <i class="bi-person-plus fs-1"></i>
+                        </div>
+                        <h4 class="card-title fw-bold">Regístrate</h4>
+                        <p class="card-text">Crea tu perfil en nuestra plataforma y completa tu información básica</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body p-4 text-center">
+                        <div class="icon-circle bg-primary text-white mb-4 mx-auto">
+                            <i class="bi-search fs-1"></i>
+                        </div>
+                        <h4 class="card-title fw-bold">Explora Actividades</h4>
+                        <p class="card-text">Busca oportunidades que coincidan con tus intereses y habilidades</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body p-4 text-center">
+                        <div class="icon-circle bg-primary text-white mb-4 mx-auto">
+                            <i class="bi-check-circle fs-1"></i>
+                        </div>
+                        <h4 class="card-title fw-bold">Únete y Participa</h4>
+                        <p class="card-text">Solicita unirte a un proyecto y comienza tu experiencia de voluntariado</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="text-center mb-5">
+            <h2 class="fw-bold mb-3">¿Listo para unirte al cambio?</h2>
+            <p class="text-muted lead mx-auto" style="max-width: 700px;">Escríbenos a nuestros correos o redes sociales</p>
+        </div>
+    </div>
+</section>
+
+<br />
+
+<!-- Voluntariados -->
+<section class="py-7 bg-light">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-5">
+            <h2 class="fw-bold mb-0">Nuestros Voluntariados</h2>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm overflow-hidden">
+                    <img src="https://res.cloudinary.com/dcm2dsjov/image/upload/v1741580608/Logo_PV_UNAH_VS-removebg-preview_jadsip.png"
+                         class="card-img-top"
+                         alt="Tutoring project"
+                         style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <span class="badge bg-primary mb-2">Medio Ambiente</span>
+                        <h5 class="card-title fw-bold">Pumas Verdes</h5>
+                        <p class="card-text">Comprometidos con la sostenibilidad ambiental y la educación ecológica en nuestro campus y comunidades</p>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <div>
+                                <i class="bi-people text-primary me-1"></i>
+                                <small>15 voluntarios</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer bg-white border-0">
+                        <a href="#" class="btn btn-sm btn-primary w-100">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm overflow-hidden">
+                    <img src="https://res.cloudinary.com/dcm2dsjov/image/upload/v1741580995/c31eebe3-8666-4c25-ba58-c81ae0da5ab6-removebg-preview_b1an3v.png"
+                         class="card-img-top"
+                         alt="Tutoring project"
+                         style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <span class="badge bg-warning mb-2">Medio Ambiente</span>
+                        <h5 class="card-title fw-bold">Sonriendo Juntos</h5>
+                        <p class="card-text">Transformando vidas a través de la salud y bienestar, colaborando con Operación Sonrisa Honduras</p>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <div>
+                                <i class="bi-people text-primary me-1"></i>
+                                <small>15 voluntarios</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer bg-white border-0">
+                        <a href="#" class="btn btn-sm btn-primary w-100">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm overflow-hidden">
+                    <img src="https://res.cloudinary.com/dcm2dsjov/image/upload/v1741580981/273c01b6-b5ce-4abb-af34-c5046222a2d6-removebg-preview_ycw82u.png"
+                         class="card-img-top"
+                         alt="Tutoring project"
+                         style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <span class="badge bg-success mb-2">Mascotas</span>
+                        <h5 class="card-title fw-bold">Patitas UNAH</h5>
+                        <p class="card-text">Protectores de la vida animal: Rescate, rehabilitación y concienciación sobre tenencia responsable</p>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <div>
+                                <i class="bi-people text-primary me-1"></i>
+                                <small>15 voluntarios</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer bg-white border-0">
+                        <a href="#" class="btn btn-sm btn-primary w-100">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm overflow-hidden">
+                    <img src="https://res.cloudinary.com/dcm2dsjov/image/upload/v1741581160/27022b04-71eb-4808-95e2-fbc2c4e43738-removebg-preview_hewtfm.png"
+                         class="card-img-top"
+                         alt="Tutoring project"
+                         style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <span class="badge bg-success mb-2">Mascotas</span>
+                        <h5 class="card-title fw-bold">Pumas Unidos</h5>
+                        <p class="card-text">Acciones solidarias que fortalecen comunidades vulnerables mediante ayuda humanitaria y educación</p>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <div>
+                                <i class="bi-people text-primary me-1"></i>
+                                <small>15 voluntarios</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer bg-white border-0">
+                        <a href="#" class="btn btn-sm btn-primary w-100">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
